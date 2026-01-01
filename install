@@ -16,4 +16,6 @@ tar -xvf Zotero-8.0-beta.23.tar.bz2
 
 rm  Zotero-8.0-beta*
 
-Zotero_linux-arm64
+cd
+
+proot-distro login debian --user user2 --shared-tmp -- bash -c "cd; cd Zotero_linux-arm64; chmod +x zotero; chmod +x zotero-bin; "
