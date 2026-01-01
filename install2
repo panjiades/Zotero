@@ -21,19 +21,16 @@ while true; do
 
     case $pilihan in
         1)
-            echo -e "\n${KUNING}Memulai proses instalasi...${NC}"
             wget -O - https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/install | bash
             echo -e "${HIJAU}Selesai! Tekan Enter untuk kembali.${NC}"
             read
             ;;
         2)
-            echo -e "\n${KUNING}Membuka panduan di Google...${NC}"
-            # xdg-open adalah command standar Linux untuk membuka URL di browser default
+            
             xdg-open "https://www.google.com" 2>/dev/null || sensible-browser "https://www.google.com"
             sleep 2
             ;;
         3)
-            echo -e "\n${MERAH}Keluar dari program... Sampai jumpa!${NC}"
             exit 0
             ;;
         *)
