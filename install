@@ -29,5 +29,7 @@ proot-distro login ubuntu --user user2 --shared-tmp -- bash -c "cd; sudo apt ins
 
 cd /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu/home/user2/Desktop
 wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Zotero.desktop
+https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Libre.desktop
+cd
 cd
 
