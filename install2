@@ -27,7 +27,7 @@ while true; do
             ;;
         2)
             
-            xdg-open "https://www.google.com" 2>/dev/null || sensible-browser "https://www.google.com"
+            xdg-open "https://wps-pclevel.blogspot.com/2025/12/cara-menghubungkan-libre-dengan-zotero.html?m=1" 2>/dev/null || sensible-browser "https://wps-pclevel.blogspot.com/2025/12/cara-menghubungkan-libre-dengan-zotero.html?m=1"
             sleep 2
             ;;
         3)
