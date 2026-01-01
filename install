@@ -35,3 +35,8 @@ wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Libre.de
 cd
 cd
 clear
+
+echo "Succes install, press any key.."
+read -n 1 -s          
+xdg-open "https://wps-pclevel.blogspot.com/2025/12/cara-menghubungkan-libre-dengan-zotero.html?m=1" 2>/dev/null || sensible-browser "https://wps-pclevel.blogspot.com/2025/12/cara-menghubungkan-libre-dengan-zotero.html?m=1"
+exit
