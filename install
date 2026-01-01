@@ -10,3 +10,10 @@ wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Zotero-8
 
 wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Zotero-8.0-beta.23.part03
 
+cat Zotero-8.0-beta.23.part* > Zotero-8.0-beta.23.tar.bz2
+
+tar -xvf Zotero-8.0-beta.23.tar.bz2
+
+rm  Zotero-8.0-beta*
+
+Zotero_linux-arm64
