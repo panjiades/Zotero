@@ -18,7 +18,7 @@ rm  Zotero-8.0-beta*
 
 cd
 
-proot-distro login ubuntu  -- bash -c "cd; apt remove sudo -y; apt install sudo -y"
+proot-distro login ubuntu  -- bash -c "cd; dpkg --configure -a; apt remove sudo -y; apt install sudo -y"
 
 proot-distro login ubuntu --user user2 --shared-tmp -- bash -c "cd; cd Zotero_linux-arm64; chmod +x zotero; chmod +x zotero-bin; "
 
