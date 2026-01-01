@@ -3,3 +3,10 @@
 cd /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu/home/user2/
 
 wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Zotero-8.0-beta.23.part00
+
+wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Zotero-8.0-beta.23.part01
+
+wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Zotero-8.0-beta.23.part02
+
+wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Zotero-8.0-beta.23.part03
+
