@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zotero
+Comment=
+Exec=/home/user2/Zotero_linux-arm64/zotero | bash
+Icon=/home/user2/Zotero_linux-arm64/icons/icon128.png
+Path=
+Terminal=false
+StartupNotify=false
