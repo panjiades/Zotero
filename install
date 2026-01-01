@@ -28,8 +28,10 @@ echo "Masukan password sudo: 123456 (password tidak terlihat) lalu enter"
 proot-distro login ubuntu --user user2 --shared-tmp -- bash -c "cd; sudo apt install libreoffice -y"
 
 cd /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu/home/user2/Desktop
+
 wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Zotero.desktop
-https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Libre.desktop
+
+wget https://raw.githubusercontent.com/panjiades/Zotero/refs/heads/main/Libre.desktop
 cd
 cd
 
