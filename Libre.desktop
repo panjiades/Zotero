@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LibreOffice Writer
+Comment=Tulis dokumen dan surat
+Exec=lowriter %U
+Icon=libreoffice-writer
+Terminal=false
+Categories=Office;WordProcessor;
